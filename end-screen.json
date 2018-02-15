@@ -1,0 +1,17 @@
+{
+  "share-providers": {
+    "email": true,
+    "twitter": true,
+    "tumblr": true,
+    "facebook": { "app_id": "MY_FACEBOOK_APP_ID" }
+  },
+  "related-articles": {
+    "More to Read": [
+      {
+        "title": "Made with Rss To AMP-Stories",
+        "url": "https://github.com/FGRibreau/rss-to-amp-stories",
+        "image": "https://avatars3.githubusercontent.com/u/138050?s=460&v=4"
+      }
+    ]
+  }
+}

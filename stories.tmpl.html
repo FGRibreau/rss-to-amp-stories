@@ -1,0 +1,53 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+  <meta charset="utf-8">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-0.1.js"></script>
+  <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+  <title>Rss to amp-stories</title>
+  <link rel="canonical" href="http://example.ampproject.org/my-story.html" />
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+
+  <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}
+</style></noscript>
+  <style amp-custom>
+  amp-story-page amp-fit-text {
+    font-family: Arial,Helvetica,sans-serif;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,.4);
+    font-weight: 400;
+    color: #fff;
+  }
+
+  amp-story-grid-layer[template="thirds"]{
+    background: linear-gradient(to top,#000 0,transparent 70%);
+  }
+  </style>
+</head>
+<body>
+  <amp-story standalone  bookend-config-src="/end-screen.json">
+    {{#items}}
+    <amp-story-page id="{{ guid }}">
+      <amp-story-grid-layer template="fill">
+        <amp-img src="{{ enclosure.url }}"
+            width="900" height="1600">
+        </amp-img>
+        <h1>{{ title}}</h1>
+      </amp-story-grid-layer>
+      <amp-story-grid-layer template="thirds">
+        <amp-fit-text
+          min-font-size="50"
+          max-font-size="70"
+          text-align="left"
+          grid-area="lower-third"
+          font-weight="600"
+          height="200"
+          width="320"
+          layout="responsive">{{ title}}</amp-fit-text>
+      </amp-story-grid-layer>
+    </amp-story-page>
+    {{/items}}
+  </amp-story>
+</body>
+</html>
