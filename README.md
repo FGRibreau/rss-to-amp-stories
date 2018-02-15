@@ -13,11 +13,11 @@ Note that it should be used to display a single story and not many stories like 
 
 
 <p align="center">
-<a href="http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml"><img src="https://media.giphy.com/media/8qwXLKphSk7BllIhej/giphy.gif" height="500"/></a>
+<a href="http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml"><img src="gifs/mobile.gif" height="500"/></a>
 </p>
 
 <p align="center">
-<a href="http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml"><img src="https://media.giphy.com/media/348tg0t7mxPkwYIlD1/giphy.gif" height="500"/></a>
+<a href="http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml"><img src="gifs/desktop.gif" height="500"/></a>
 </p>
 
 
