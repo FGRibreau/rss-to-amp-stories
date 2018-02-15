@@ -5,7 +5,17 @@ I was at [#AMPConf Amsterdam](https://www.ampproject.org/amp-conf/) this week an
 During the keynote I made this quick & dirty prototype to check how it would work with an Rss feed.
 Note that it should be used to display a single story and not many stories like I did here.
 
+
 ## Demo
+
+
+<p align="center">
+<img src="gifs/mobile.gif"/>
+</p>
+
+<p align="center">
+<img src="gifs/desktop.gif"/>
+</p>
 
 - [Ouest-France latest news in amp-story format](http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml)
 - [Le Monde news in amp-story format](http://rss-to-amp-stories.cleverapps.io/?url=http://www.lemonde.fr/rss/une.xml)
