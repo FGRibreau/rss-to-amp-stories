@@ -10,11 +10,11 @@ Note that it should be used to display a single story and not many stories like 
 
 
 <p align="center">
-<img src="https://media.giphy.com/media/8qwXLKphSk7BllIhej/giphy.gif"/>
+<a href="http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml"><img src="https://media.giphy.com/media/8qwXLKphSk7BllIhej/giphy.gif" height="500"/></a>
 </p>
 
 <p align="center">
-<img src="https://media.giphy.com/media/348tg0t7mxPkwYIlD1/giphy.gif"/>
+<a href="http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml"><img src="https://media.giphy.com/media/348tg0t7mxPkwYIlD1/giphy.gif" height="500"/></a>
 </p>
 
 - [Ouest-France latest news in amp-story format](http://rss-to-amp-stories.cleverapps.io/?url=https://www.ouest-france.fr/rss-en-continu.xml)
