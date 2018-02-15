@@ -1,8 +1,9 @@
 # RSS To AMP-Stories (prototype)
 
 
-I was at [#AMPConf Amsterdam](https://www.ampproject.org/amp-conf/) this week and discovered like everyone else there the new AMP Story feature.
-During the keynote I made this quick & dirty prototype to check how it would work with an Rss feed.
+I was at [#AMPConf Amsterdam](https://www.ampproject.org/amp-conf/) this week and discovered the new AMP Story feature.
+
+During the ["Telling Stories with AMP" talk](https://www.youtube.com/watch?v=aael0hECWFw&index=4&list=PLXTOW_XMsIDSl5iyPxgtEI0ts5HfBTH8c) I made this quick & dirty prototype to check how it would work with an Rss feed.
 Note that it should be used to display a single story and not many stories like I did here.
 
 
